@@ -2,10 +2,10 @@ import React from 'react';
 import {Typography, Box, Grid, Button} from '@material-ui/core';
 import './Home.css';
 
-function Home(){
+function Home() {
     return (
-         <>
-         <Grid container direction="row" justifyContent="center" alignItems="center" style={{ backgroundColor: "#3F51B5" }}>
+        <>
+            <Grid container direction="row" justifyContent="center" alignItems="center" style={{ backgroundColor: "#3F51B5" }}>
                 <Grid alignItems="center" item xs={6}>
                     <Box paddingX={20} >
                         <Typography variant="h3" gutterBottom color="textPrimary" component="h3" align="center" style={{ color: "white", fontWeight: "bold" }}>Seja bem vindo(a)!</Typography>
@@ -23,7 +23,7 @@ function Home(){
                 <Grid xs={12} style={{ backgroundColor: "white" }}>
                 </Grid>
             </Grid>
-         </>
+        </>
     );
 }
 
